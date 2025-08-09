@@ -1,0 +1,114 @@
+{
+  "country": "UK",
+  "tax_year": 2026,
+  "currency": {
+    "code": "GBP",
+    "symbol": "\u00a3"
+  },
+  "standard_deduction": {
+    "single": 0,
+    "married_filing_jointly": 0,
+    "married_filing_separately": 0,
+    "head_of_household": 0
+  },
+  "federal_brackets": {
+    "single": [
+      {
+        "rate": 0.1,
+        "upto": 10000
+      },
+      {
+        "rate": 0.2,
+        "upto": 40000
+      },
+      {
+        "rate": 0.3,
+        "upto": null
+      }
+    ],
+    "married_filing_jointly": [
+      {
+        "rate": 0.1,
+        "upto": 20000
+      },
+      {
+        "rate": 0.2,
+        "upto": 80000
+      },
+      {
+        "rate": 0.3,
+        "upto": null
+      }
+    ],
+    "married_filing_separately": [
+      {
+        "rate": 0.1,
+        "upto": 10000
+      },
+      {
+        "rate": 0.2,
+        "upto": 40000
+      },
+      {
+        "rate": 0.3,
+        "upto": null
+      }
+    ],
+    "head_of_household": [
+      {
+        "rate": 0.1,
+        "upto": 15000
+      },
+      {
+        "rate": 0.2,
+        "upto": 50000
+      },
+      {
+        "rate": 0.3,
+        "upto": null
+      }
+    ]
+  },
+  "ssa_wage_base": 168600,
+  "additional_medicare_thresholds": {
+    "single": 200000,
+    "married_filing_jointly": 250000,
+    "married_filing_separately": 125000,
+    "head_of_household": 200000
+  },
+  "qbi_rules": {
+    "enabled": true
+  },
+  "quarterly_due_dates": [
+    "2025-04-15",
+    "2025-06-17",
+    "2025-09-16",
+    "2026-01-15"
+  ],
+  "salary": {
+    "allowances": {
+      "personal_allowance": 12570
+    },
+    "social": {
+      "ee_ni_bands": [
+        {
+          "upto": 12570,
+          "rate": 0.0
+        },
+        {
+          "upto": 50270,
+          "rate": 0.08
+        },
+        {
+          "upto": null,
+          "rate": 0.02
+        }
+      ]
+    },
+    "defaults": {
+      "pay_frequency": "monthly"
+    }
+  },
+  "last_updated": "2025-08-09",
+  "sources": []
+}
